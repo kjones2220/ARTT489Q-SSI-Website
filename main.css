@@ -1,13 +1,37 @@
 /* -------------------------------------------------- */
 /* Universal */
 /* -------------------------------------------------- */
+html {
+  // Extra small devices (portrait phones)
+  @media (max-width: 57.598rem) {
+    font-size: 55%;
+  }
+  // Small devices (landscape phones)
+  @media (min-width: 57.6rem) and (max-width: 76.798rem) {
+    font-size: 58%;
+  }
+  // Medium devices (tablets)
+  @media (min-width: 76.8rem) and (max-width: 99.198rem) {
+    font-size: 60%;
+  }
+  // Large devices (desktops)
+  @media (min-width: 99.2rem) and (max-width: 119.998rem) {
+    font-size: 62.5%;
+  }
+  // Extra large devices (large desktops)
+  @media (min-width: 120.0rem) {
+    font-size: 62.5%;
+  }
+}
+
 
 body {
   margin: 0;
-  font-size: 18px;
+  font-size: 1.8rem;
   padding: 0;
   font-family: 'Poppins', sans-serif;
 }
+
 
 /* NOTE the comma's here mean that h1, h2, ..., p will ALL share these same styles */
 h1, h2, h3, h4, h5, h6, p {
@@ -15,12 +39,12 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 3.6rem;
   font-weight: 800;
 }
 
 h2.heading {
-  margin-bottom: 40px;
+  margin-bottom: 4rem;
 }
 
 /* -------------------------------------------------- */
@@ -28,7 +52,7 @@ h2.heading {
 /* -------------------------------------------------- */
 
 section .container {
-  width: 1200px;
+  width: 120.0rem;
   max-width: 90%;
   margin: 0 auto;
 }
@@ -44,8 +68,8 @@ section.red {
 }
 
 section.padded {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 
 /* -------------------------------------------------- */
@@ -64,7 +88,7 @@ section.padded {
 }
 .column-large {
   width: 66%;
-  padding-left: 40px;
+  padding-left: 4rem;
 }
 .center {
   text-align: center;
@@ -78,7 +102,7 @@ section.padded {
  * css file really.
  */
 .column {
-  padding: 0px 15px;
+  padding: 0rem 1.5rem;
 }
 
 /*
@@ -95,14 +119,14 @@ section.padded {
  * them to see how the website changes.
  */
 .column:first-child {
-  margin-left: -15px;
+  margin-left: -1.5rem;
 }
 /*
  * Styles for element's with class "column" and are the last child within a
  * wrapping element
  */
 .column:last-child {
-  margin-right: -15px;
+  margin-right: -1.5rem;
 }
 
 /* -------------------------------------------------- */
@@ -112,16 +136,16 @@ a.button {
   background-color: #E82C0C;
   font-weight: bold;
   color: white;
-  padding: 12px 24px;
+  padding: 1.2rem 2.4rem;
   text-decoration: none;
-  border-radius: 50px;
+  border-radius: 5.0rem;
   transition: ease all .3s; /* Animates the change between nonhover and hover */
 }
 a.button:hover {
   /* Use this website to generate box-shadows: https://www.cssmatic.com/box-shadow */
-  -webkit-box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.5);
-  -moz-box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.5);
-  box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0rem .2rem .8rem 0rem rgba(0,0,0,0.5);
+  -moz-box-shadow: 0rem .2rem .8rem 0rem rgba(0,0,0,0.5);
+  box-shadow: 0rem .2rem .8rem 0rem rgba(0,0,0,0.5);
 }
 
 /* -------------------------------------------------- */
@@ -135,10 +159,10 @@ section.hero {
   align-items: center;
 }
 section.hero h1 {
-  font-size: 80px;
+  font-size: 8.0rem;
   max-width: 66%;
   font-weight: 800;
-  margin-bottom: 20px;
+  margin-bottom: 2.0rem;
 }
 section.hero .highlight {
   color: #E82C0C;
@@ -149,7 +173,7 @@ section.hero .highlight {
 /* -------------------------------------------------- */
 
 section.navbar {
-  padding: 20px 0px;
+  padding: 2.0rem 0rem;
   background-color: #E82C0C;
   position: fixed; /* Makes the navbar sticky to the top of the page */
   width: 100%;
@@ -164,7 +188,7 @@ section.navbar a {
   text-decoration: none; /* Remove the underline on the link */
 }
 section.navbar .links a {
-  margin-left: 20px;
+  margin-left: 2.0rem;
   opacity: .4;
 }
 section.navbar .links a:hover {
@@ -176,15 +200,16 @@ section.navbar .links a:hover {
 /* -------------------------------------------------- */
 
 section.intro p {
-  margin-bottom: 20px;
+  margin-bottom: 2.0rem;
 }
+
 
 /* -------------------------------------------------- */
 /* Footer */
 /* -------------------------------------------------- */
 
 section.footer a i {
-  font-size: 30px;
-  margin-right: 20px;
+  font-size: 3.0rem;
+  margin-right: 2.0rem;
   color: #E82C0C;
 }
