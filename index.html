@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Student Success Initiative</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./main.css">
+  </head>
+  <body>
+
+    <section class="navbar">
+      <div class="container">
+        <div class="row">
+          <!--
+            NOTE
+            Notice that the href="index.html", which is this file.
+
+            This means that when users click this link, they will be directed
+            to the same page they're already on.
+
+            Sounds silly right? We have this defined here so that when we reuse
+            this navbar code on "otherpage.html", we will have a link back to
+            the home page again.
+
+            Why can't we just define it there and not here? Having consistent
+            navbars and footers on your website creates a better user-experience
+            for those browsing your site.
+          -->
+          <a href="index.html">STUDENT SUCCESS INITIATIVE</a>
+          <div class="links">
+            <!--
+              NOTE
+              Previously, we defined links that lead to URLs on the internet.
+
+              Here's an example of how we can define URLs to local pages, other
+              pages of our website. The way to structure these links is similar
+              to how we define paths for css href="./mycssfilename.css" or
+              "mycssfilename.css", and images src="./imgs/myimagename.jpg"
+
+              We simply make another filename.html, and link it here.
+
+              (These links all lead to the same page out of convenience)
+            -->
+            <a href="otherpage.html">SSLC</a>
+            <a href="otherpage.html">UMSUCCESS</a>
+            <a href="otherpage.html">STEP</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero">
+      <div class="container">
+        <h1>Our mission is<span class="highlight"> success.</span></h1>
+        <a class="button" href="./otherpage.html">Apply to Join Our Family</a>
+      </div>
+    </section>
+
+    <section class="intro padded black">
+      <div class="container">
+        <div class="row">
+          <div class="column-small">
+            <h2>The Student Success Initiative is a triade of organizations. </h2>
+          </div>
+          <div class="column-large">
+            <p>
+              Although all three organizations serve different purposes, whether it be event planning, digital media, or community service, they all have the same overarching mission.
+            </p>
+            <p>
+              We build student-led programs that empower the Black student population at the University of Maryland, College Park academically, professionally, and financially.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro padded red">
+      <div class="container">
+        <div class="row">
+          <div class="column-large center">
+            <h2>SSI's goal is to increase the graduation and retention rates of Black students at the University of Maryland.</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="info padded">
+      <div class="container">
+        <h2 class="heading">Our Organizations</h2>
+        <div class="row">
+          <div class="column">
+            <h3> SSLC </h3>
+            <p>
+              The Student Success Leadership Council hosts four main events to connect alumni, students, staff/faculty, and employers. These four events are FreshCon, NetNite, Brunch For Success, and the Gift of Giving Gala.
+            </p>
+          </div>
+          <div class="column">
+            <h3> UMSuccess </h3>
+            <p>
+              UMSuccess is the digital home for Black students at the university. This is where you can find a spotlight on members within our community through social media campaigns like Souls of UMD or attend a branding and entrepreneurship workshop called Brand Your Shell.
+            </p>
+          </div>
+          <div class="column">
+            <h3 >STEP </h3>
+            <p>
+              STEP is the original organization out of the triade. STEP was initially created in order to specifically support the Black male community due to the disparities between their graduation and retention rates and the entire university. They have since hosted numerous social and community service events.
+            </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="info padded red">
+      <div class="container">
+        <h2 class="heading">Where Can You Find Us</h2>
+        <div class="row">
+          <div class="column">
+            <p>
+              We meet every Friday from 2-4pm in Marie Mount Hall. On some Fridays we host Master Classes that involve bringing back alumni to teach our current members how to excel in the workforce or in their professional endeavors, hosting companies to sit with our student leaders, or speaking with Deans of the Colleges at the university. Some meetings are strictly dedicated to committee meetings for each event group to work on their upcoming event.
+          </div>
+          <div class="column">
+            <p>
+              Our organizations are under the Office of the Vice President – Student Affairs, and we are located in the Mitchell Building next to the Armory. Our advisor is Dr. Tony Randall, and he helps us bring our big ideas to fruition. He also serves as a mentor on this campus to both current and past members of all three organizations.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer padded black">
+      <div class="container">
+        <h2 class="heading">Join the Conversation</h2>
+        <div class="row">
+          <a href="https://www.facebook.com/sslc1umd/">
+            <i class="fab fa-facebook-square"></i>
+          </a>
+          <a href="https://twitter.com/TerpsGraduate">
+            <i class="fab fa-twitter-square"></i>
+          </a>
+          <a href="https://www.instagram.com/umsuccessumd/">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </body>
+</html>
