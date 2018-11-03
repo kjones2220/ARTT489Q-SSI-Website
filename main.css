@@ -1,28 +1,7 @@
 /* -------------------------------------------------- */
 /* Universal */
 /* -------------------------------------------------- */
-html {
-  // Extra small devices (portrait phones)
-  @media (max-width: 57.598rem) {
-    font-size: 55%;
-  }
-  // Small devices (landscape phones)
-  @media (min-width: 57.6rem) and (max-width: 76.798rem) {
-    font-size: 58%;
-  }
-  // Medium devices (tablets)
-  @media (min-width: 76.8rem) and (max-width: 99.198rem) {
-    font-size: 60%;
-  }
-  // Large devices (desktops)
-  @media (min-width: 99.2rem) and (max-width: 119.998rem) {
-    font-size: 62.5%;
-  }
-  // Extra large devices (large desktops)
-  @media (min-width: 120.0rem) {
-    font-size: 62.5%;
-  }
-}
+
 
 
 body {
